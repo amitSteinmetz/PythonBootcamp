@@ -1,2 +1,2 @@
 # PythonBootcamp
-Many interesting projects that i made during udemy python bootcamp by Dr. Angela Yu
+Many interesting projects within udemy python bootcamp by Dr. Angela Yu
