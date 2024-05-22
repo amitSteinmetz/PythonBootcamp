@@ -7,13 +7,12 @@ from scoreboard import Scoreboard
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.tracer(0)
+screen.listen()
+screen.onkeypress(player.go_up, "Up")
 
 player = Player()
 car_manager = CarManager()
 score_board = Scoreboard()
-
-screen.listen()
-screen.onkeypress(player.go_up, "Up")
 
 game_is_on = True
 
